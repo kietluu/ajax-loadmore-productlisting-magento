@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ajaxload_Productload>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ajaxload_Productload>
+    </modules>
+</config>

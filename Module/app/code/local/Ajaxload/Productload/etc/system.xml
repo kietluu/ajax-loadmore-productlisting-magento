@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <ajaxload_productload translate="label" module="ajaxload_productload">
+            <label>Product Load More</label>
+            <sort_order>100</sort_order>
+        </ajaxload_productload>
+    </tabs>
+    <sections>
+        <ajaxload_productload translate="label" module="ajaxload_productload">
+            <label>Extension Options</label>
+            <tab>ajaxload_productload</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <ajaxload_productload_group translate="label" module="ajaxload_productload">
+                    <label>Product Load More Ajax</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <ajaxload_productload_select translate="label">
+                            <label>Enable Module: </label>
+                            <comment>Choose Yes/No option</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </ajaxload_productload_select>
+                    </fields>
+
+                </ajaxload_productload_group>
+            </groups>
+        </ajaxload_productload>
+    </sections>
+</config>

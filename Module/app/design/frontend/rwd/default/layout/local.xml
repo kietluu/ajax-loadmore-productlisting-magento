@@ -1,0 +1,12 @@
+<layout version="0.1.0">
+    <default>
+        <reference name="root">
+            <reference name="head">
+                <action method="addItem"><type>skin_js</type><name>js/callbacks.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/jquery-ias.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/trigger.js</name></action>
+                <action method="addItem"><type>skin_css</type><name>css/custom.css</name></action>
+            </reference>
+        </reference>
+    </default>
+</layout>
