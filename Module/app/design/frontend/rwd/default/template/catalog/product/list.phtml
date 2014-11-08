@@ -189,7 +189,7 @@
     $config =Mage::getStoreConfig('ajaxload_productload/ajaxload_productload_group/ajaxload_productload_select',Mage::app()->getStore());
 ?>
 
-    <?php if($config == 1): ?>
+    <?php if($config['enabled'] == 1): ?>
         <script type="text/javascript">
         jQuery(document).ready(function () {
 
